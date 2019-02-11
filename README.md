@@ -1,5 +1,9 @@
 # react-pokedex
 
+A React Pokedex with Express backend.
+Search for pokemon and find out what types deal the most damage to each of them.
+Uses [PokéAPI](https://pokeapi.co/) for the pokemon data.
+
 ## Quick Start
 
 ### Install dependencies
@@ -9,4 +13,4 @@
 
 ### Start development server
 
-`npm run dev`
+`npm run dev` in root folder
