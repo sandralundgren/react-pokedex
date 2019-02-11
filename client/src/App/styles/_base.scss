@@ -1,0 +1,41 @@
+/***************************************
+*   BASE
+****************************************/
+
+html, 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: $link-color;
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}

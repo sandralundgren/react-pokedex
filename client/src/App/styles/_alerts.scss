@@ -1,0 +1,20 @@
+/***************************************
+*   ALERTS
+****************************************/
+
+.alert-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.alert,
+.alert-image-wrapper {
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.alert__image {
+  border-radius: 0.3rem;
+}

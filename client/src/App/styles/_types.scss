@@ -1,0 +1,112 @@
+.pokemon-details__types {
+	margin-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.pokemon__type {
+	display: inline-block;
+	background-color: $default-type-color;
+	font-size: 0.8rem;
+	font-weight: 800;
+	color: white;
+	margin-top: 0.9rem;
+	margin-right: 0.6rem;
+	padding: 0.4rem 0.8rem;
+	border-radius: 0.3rem;
+
+	&.type__bug {
+		background-color: $bug-color;
+	}
+
+	&.type__dark {
+		background-color: $dark-color;
+	}
+	
+	&.type__dragon {
+		background-color: $dragon-color;
+	}
+	
+	&.type__electric {
+		background-color: $electric-color;
+	}
+	
+	&.type__fairy {
+		background-color: $fairy-color;
+	}
+	
+	&.type__fighting {
+		background-color: $fighting-color;
+	}
+	
+	&.type__fire {
+		background-color: $fire-color;
+	}
+	
+	&.type__flying {
+		background-color: $flying-color;
+	}
+	
+	&.type__ghost {
+		background-color: $ghost-color;
+	}
+	
+	&.type__grass {
+		background-color: $grass-color;
+	}
+	
+	&.type__ground {
+		background-color: $ground-color;
+	}
+	
+	&.type__ice {
+		background-color: $ice-color;
+	}
+	
+	&.type__normal {
+		background-color: $normal-color;
+	}
+	
+	&.type__poison {
+		background-color: $poison-color;
+	}
+	
+	&.type__psychic {
+		background-color: $psychic-color;
+	}
+	
+	&.type__rock {
+		background-color: $rock-color;
+	}
+	
+	&.type__steel {
+		background-color: $steel-color;
+	}
+	
+	&.type__water {
+		background-color: $water-color;
+	}
+}
+
+.pokemon__type.pokemon__shininess {
+	margin-top: -1rem;
+	margin-right: 0;
+
+	&.pokemon--shiny {
+		background-image: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+		background-image: linear-gradient(to right, #fc6767, #ec008c);
+	}
+
+	&.pokemon--normal {
+		background-image: -webkit-linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+		background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	}
+}
+
+.pokemon__damage-label {
+	color: $title-color;
+	font-size: 0.9rem;
+	font-weight: bold;
+	margin-top: 1rem;
+	margin-bottom: -0.3rem;
+}

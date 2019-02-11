@@ -1,0 +1,44 @@
+/***************************************
+*   SEARCH
+****************************************/
+
+.pokemon-search__wrapper {
+	margin: 0 auto;
+}
+
+.pokemon-searchbar__wrapper {
+	display: inline-block;
+	margin-top: 2rem;
+	position: relative;
+}
+
+.pokemon-search__input {
+	width: 20vw;
+	padding: 1rem 2rem;
+  border-radius: 2.5rem;
+  border: 1px #d8dde2 solid;
+	font-size: 1rem;
+	&:focus {
+		outline: none;
+	}
+}
+
+.fas.fa-search {
+	position: absolute;
+	top: 30%;
+	right: 5%;
+	font-size: 1.2rem;
+	color: $title-color;
+	background: linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+@media only screen and (max-width: $medium-breakpoint) {
+	.pokemon-search__input {
+		width: 65vw;
+		font-size: 0.7rem;
+	}
+
+} 

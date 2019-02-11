@@ -1,0 +1,20 @@
+/***************************************
+*   NAVBAR
+****************************************/
+
+.navbar {
+	background-color: $navbar-color;
+	height: 50px;
+}
+
+.navbar-title-wrapper {
+	margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.navbar-title {
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 25px;
+	padding-top: 12px;
+}

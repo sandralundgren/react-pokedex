@@ -1,0 +1,56 @@
+/***************************************
+*   LINKED CARDS
+****************************************/
+
+.pokemon-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 1rem;
+}
+
+.pokemon-card__link {
+	display: flex;
+	max-width: 300px;
+}
+
+.pokemon-card {
+	padding: 2em 1em;
+	margin: 1.5em;
+	width: 15vw;
+	align-self: center;
+	box-shadow: $card-shadow;
+	border-radius: 0.8em;
+	text-align: center;
+}
+
+.pokemon-card__name-wrapper {
+	font-weight: bold;
+	font-family: 'Montserrat';
+}
+
+.pokemon-card__name {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.pokemon-card__image {
+	height: 96px;
+}
+
+/***************************************
+*   MEDIA QUERIES
+****************************************/
+
+@media only screen and (max-width: $medium-breakpoint) {
+	.pokemon-card {
+		width: 30vw;
+		margin: 0.5em;
+		padding: 1em 1em;
+	}
+
+	.pokemon-card__name-wrapper {
+		font-size: 0.7rem;
+		margin-top: -1rem;
+	}
+} 

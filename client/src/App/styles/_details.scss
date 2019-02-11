@@ -1,0 +1,97 @@
+.pokemon-details__parent-wrapper {
+	max-width: $main-body-width;
+	margin: 0 auto;
+	margin-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: center;
+}
+
+.pokemon-sprites__parent-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.pokemon-sprites-wrapper,
+.pokemon-details__image {
+	width: $image-sprite-width;
+}
+
+.pokemon-details__name {
+	font-weight: 800;
+	font-size: 2rem;
+	color: $title-color;
+	margin-top: 1.5rem;
+	text-transform: capitalize;
+}
+
+.pokemon-details__species {
+	max-width: 400px;
+	margin: 0 auto;
+	line-height: 1.8rem;
+	margin-top: 1rem;
+} 
+
+.pokemon-details__description {
+	font-weight: 300;
+}
+
+.pokemon-details__label {
+	font-weight: bold;
+	color: $title-color;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	display: inline-block;
+}
+
+.pokemon-details__abilities {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	font-weight: 300;
+}
+
+.pokemon-details__ability {
+	margin-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+.pokemon-details__stats {
+	width: 230px;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-transform: capitalize;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+
+.pokemon-details__stat-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.pokemon-details__stat {
+	display: inline-block;
+	flex-basis: 0;
+	flex-grow: 1;
+	font-size: 0.9rem;
+
+	&.pokemon-details__stat-value {
+		text-align: right;
+	}
+}
+
+.pokemon-details__damage-from {
+	font-family: 'Montserrat';
+	max-width: $main-body-width;
+	margin: 0 auto;	
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
