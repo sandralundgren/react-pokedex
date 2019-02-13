@@ -37,7 +37,6 @@ app.get('/api/type/:id', (req, res) => {
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/client/build/index.html'));
-  // return res.json({ msg: 'something went wrong' });
 });
 
 const port = process.env.PORT || 5000;

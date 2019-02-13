@@ -1,7 +1,7 @@
 {
 	"name": "pokedex",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A React Pokedex",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
 		"start": "npm run server && npm run client",
 		"dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
 		"build": "babel src --out-dir dist",
-		"serve": "node dist/server.js"
+		"serve": "node dist/server.js",
+		"eslint": "./node_modules/eslint/bin/eslint.js --quiet client api"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Sandra Lundgren",
 	"license": "ISC",
 	"dependencies": {
 		"axios": "^0.18.0",
-		"eslint": "5.6.0",
 		"express": "^4.16.4"
 	},
 	"devDependencies": {
@@ -25,9 +25,12 @@
 		"@babel/core": "^7.2.2",
 		"@babel/node": "^7.2.2",
 		"@babel/preset-env": "^7.3.1",
+		"babel-eslint": "^10.0.1",
 		"concurrently": "^4.1.0",
+		"eslint": "5.6.0",
 		"eslint-config-airbnb": "^17.1.0",
 		"eslint-config-babel": "^8.0.2",
+		"eslint-config-dev": "^2.0.0",
 		"eslint-config-prettier": "^4.0.0",
 		"eslint-plugin-import": "^2.16.0",
 		"eslint-plugin-jsx-a11y": "^6.2.1",
